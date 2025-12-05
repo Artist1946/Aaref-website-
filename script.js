@@ -5,13 +5,13 @@ const mainImage = document.getElementById("mainImage");
 
 /* صور لكل خطوة — أنت تغيّرها بحرّية */
 const stepImages = {
-    '1': "Photos/Photos.jpg",
-    '2': "Photos/Photos1.jpg",
-    '2_1': "Photos/Photos2.jpg",
-    '3': "Photos/Photos3.jpg",
-    'end_wait': "Photos/ctrl+r.jpg",
-    'end_love': "Photos/Photos4.jpg",
-    'end_surprise': "Photos/Photos5.jpg",
+    '1': "Photos.jpg",
+    '2': "Photos1.jpg",
+    '2_1': "Photos2.jpg",
+    '3': "Photos3.jpg",
+    'end_wait': "ctrl+r.jpg",
+    'end_love': "Photos4.jpg",
+    'end_surprise': "Photos5.jpg",
 };
 
 /* الأسئلة */
@@ -113,4 +113,5 @@ setInterval(() => {
              animation:love ${r_time}s linear;">
         </div>
     `);
+
 }, 400);
